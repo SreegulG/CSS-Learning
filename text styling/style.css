@@ -1,0 +1,27 @@
+.first {
+    color:green
+}
+
+.second {
+    text-transform: uppercase;
+}
+
+.third {
+    letter-spacing: 2px;
+}
+
+.forth {
+    text-shadow: 1px 1px 3px red;
+}
+
+.fifth {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.sixth {
+    font-weight: bold;
+}
+
+.seventh {
+    text-align: center;
+}
