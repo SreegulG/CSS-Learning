@@ -1,0 +1,62 @@
+.box {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.first {
+  background: linear-gradient(red, blue);
+}
+
+.second {
+  background: linear-gradient(yellow, red, blue);
+}
+
+.third {
+  background: linear-gradient(to right, red, blue);
+}
+
+.fourth {
+  background: linear-gradient(25deg, red, blue);
+}
+
+.fifth {
+  background: linear-gradient(100deg, red 10%, blue 90%);
+}
+
+.sixth {
+  background: radial-gradient(red, blue);
+}
+
+.seventh {
+  background: radial-gradient(red, blue, green);
+}
+
+.eighth {
+  background: radial-gradient(at 20px 20px, red, blue);
+}
+.ninth {
+  background: radial-gradient(circle, red, blue);
+}
+
+.tenth {
+  background: radial-gradient(closest-side, red, blue);
+}
+
+.eleventh {
+  background: radial-gradient(farthest-side, red, blue);
+}
+
+.twelfth {
+    background: conic-gradient(red,blue);
+}
+
+.thirteenth {
+    background: conic-gradient(at 20px 30px,red,blue);
+}
+
+.fourteenth {
+    background: conic-gradient(from 60deg,red,blue);
+}
+
