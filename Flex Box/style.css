@@ -1,0 +1,198 @@
+.container1,
+.container2,
+.container3,
+.container4,
+.container5,
+.container6,
+.container7,
+.container8,
+.container9,
+.container10,
+.container11,
+.container12,
+.container13,
+.container14,
+.container15,
+.container16,
+.container17,
+.container18,
+.container19,
+.container20,
+.container21,
+.container22 {
+  margin: 20px;
+  padding: 10px;
+  background-color: lightblue;
+  border: 2px solid black;
+  display: flex;
+}
+
+.box {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+.box1 {
+  background-color: red;
+}
+
+.box2 {
+  background-color: yellow;
+}
+
+.box3 {
+  background-color: green;
+}
+
+.box4 {
+  background-color: violet;
+}
+
+.box5 {
+  background-color: blue;
+}
+
+.container1 {
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.container2 {
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+}
+
+.container3 {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.container4 {
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+}
+
+.container5 {
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.container6 {
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+
+.container7 {
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.container8 {
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+}
+
+.container9 {
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container10 {
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+
+.container11 {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container12 {
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.container13 {
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.container14 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 200px;
+  align-content: center;
+}
+
+.container15 {
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+}
+
+.container16 {
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.container17 {
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.container18 {
+  flex-direction: row;
+}
+
+.container18 .box1 {
+  flex-grow: 2;
+}
+
+.container19 {
+  flex-direction: row;
+  gap: 20px;
+}
+
+.container20 {
+  flex-direction: row;
+}
+
+.container20 .box {
+  width: 200px;
+}
+
+.container20 .box1 {
+  flex-shrink: 4;
+}
+
+.container21 {
+  flex-direction: roww;
+}
+
+.container21 .box1 {
+  order: 3;
+}
+
+.container21 .box2 {
+  order: 1;
+}
+
+.container21 .box3 {
+  order: 4;
+}
+
+.container21 .box4 {
+  order: 5;
+}
+.container21 .box5 {
+  order: 2;
+}
+
+.container22 {
+  flex-direction: column;
+}
+
+.container22 .box1 {
+  align-self: flex-end;
+}
